@@ -6,7 +6,8 @@
 // You should call this function a number of times to check it works for different inputs
 
 
- const penceString = "399p":
+ const penceString = "399p";
+
 //    This creates a string that represents a price in pence. 
 //    The "p" at the end means pence.
 
