@@ -23,3 +23,14 @@ console.assert(
   currentOutput2 === targetOutput2,
   `current output: ${currentOutput2}, target output: ${targetOutput2}`
 );
+
+console.assert(
+  formatAs12HourClock("00:00") === "12:00 am",
+  "midnight case failed"
+);
+
+console.assert(
+  formatAs12HourClock("12:00") === "12:00 pm",
+  "noon case failed"
+);
+
